@@ -1,0 +1,36 @@
+Platform,Plan,Monthly_Cost,Key_Features,Best_For
+Lovable,Free,$0,"Limited features, testing",Testing platform
+Lovable,Pro,Varies by usage,"Full features, GitHub, Supabase",Production apps
+Bolt.new,Free,$0,Limited AI access,Experimentation
+Bolt.new,Paid,Credit-based,"Multiple AI agents, full features",Serious development
+Replit Agent,Free,$0,Basic features,Learning
+Replit Agent,Pro,$30,"150 prompts/mo, full AI",Solo developers
+Replit Agent,Agent+,$4000,1-3 features/week by AI,Enterprise teams
+Base44,Free,$0,Limited credits,Testing
+Base44,Usage-based,Pay per use,Natural language app building,Full app development
+Google AI Studio,Free (AI Studio),$0,Gemini with limits,Development/testing
+Google AI Studio,Pro ($18.99/mo),$18.99,"Gemini 2.5 Pro, 2TB storage",Advanced AI + productivity
+Google AI Studio,Ultra ($234.99/mo),$234.99,"Top-tier AI, video generation","Power users, video/research"
+Manus,Free,$0,Basic access,Testing
+Manus,Pro,$24.99,"10k credits, 50GB AI Drive, priority",Regular use
+GenSpark,Free,$0,"200 credits/day, limited agents",Testing
+GenSpark,Plus,$24.99,"10k credits, priority agents",Individuals/small teams
+GenSpark,Pro,$249.99,"125k credits, 1TB storage",Agencies/heavy users
+Tempo,Free,$0 (30 prompts),30 prompts (5/day),Testing
+Tempo,Pro,$30,"150 prompts/mo, full agents",Indie developers
+Tempo,Agent+,$4000,Enterprise agent team,Enterprise features
+Cursor,Hobby,$0,"2K completions, 50 requests",Light use
+Cursor,Pro,$20,"Unlimited Tab, $20 API credits",Regular development
+Cursor,Ultra,$200,20x Pro usage,Heavy users
+Cursor,Teams,$40/user,"SSO, admin controls",Teams
+Windsurf,Free,$0,25 credits/mo,Testing
+Windsurf,Pro,$15,500 credits/mo,Solo developers
+Windsurf,Teams,$30/user,500 credits/user,Small teams
+Windsurf,Enterprise,$60/user,"1000 credits/user, RBAC",Large organizations
+Claude Code,Free,$0,Limited Sonnet,Basic use
+Claude Code,Pro,$20 ($17 annual),"10-40 prompts/5hrs, Claude Code",Regular coding
+Claude Code,Max $100,$100,50-200 prompts/5hrs,Professional heavy use
+Claude Code,Max $200,$200,200-800 prompts/5hrs,Professional intensive use
+Warp,Free,$0,Free terminal,Basic terminal
+Warp,Team,$25/user,"Team features, central billing",Team collaboration
+Droid (Factory AI),Usage-based,Model API costs,Anthropic/OpenAI API access,Flexible model choice
