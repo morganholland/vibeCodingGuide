@@ -282,6 +282,10 @@ let chatHistory = [];
 
 // Initialize
 window.addEventListener('DOMContentLoaded', () => {
+  // Initialize theme
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+
   initializePlatformTable();
   initializeUseCases();
   initializePricing();
@@ -291,9 +295,12 @@ window.addEventListener('DOMContentLoaded', () => {
 // Theme toggle
 function toggleTheme() {
   const html = document.documentElement;
-  const currentTheme = html.getAttribute('data-theme');
+  const currentTheme = html.getAttribute('data-theme') || 'light';
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  console.log('Toggling theme from', currentTheme, 'to', newTheme);
   html.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+  console.log('Theme attribute now:', html.getAttribute('data-theme'));
 }
 
 // Section navigation
